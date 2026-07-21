@@ -27,4 +27,4 @@ storage/
 # macOS
 .DS_Store
 
-*.json
+secrets/

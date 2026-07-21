@@ -17,13 +17,13 @@ def setup():
 	"""Shows basic usage of the Google Calendar API.
 	Prints the start and name of the next 10 events on the user's calendar.
 	"""
-	login = input("Do you wish to login again? y/n (default: n)\n")
+	login = input("Do you wish to login again? y/n (default: n) ")
 	no = "n" in login or "N" in login
 	yes = "y" in login or "Y" in login
 	if no and yes:
 		print("write y/n, not both")
 		sys.exit()
-	stay_signed_in = input("Would you like to stay signed in? y/n (default: y)")
+	stay_signed_in = input("Would you like to stay signed in? y/n (default: y) ")
 	if ("y" in stay_signed_in or "Y" in stay_signed_in) and ("n" in stay_signed_in or "N" in stay_signed_in):
 		print("write y/n, not both")
 		sys.exit()
