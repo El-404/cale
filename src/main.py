@@ -48,7 +48,7 @@ def AppLayout():
     navigation_action_padding = ft.Padding.symmetric(vertical=0, horizontal=20)
     today = dt.now()
 
-    page = ft.context.pageMerchant API 
+    page = ft.context.page
     page.theme = ft.Theme(color_scheme_seed=ft.Colors.GREEN)
     page.theme_mode = ft.ThemeMode.DARK
     page.window.full_screen = True
