@@ -22,7 +22,7 @@ def clock():
             today = dt.now()
             if profile.current_user != profile.public_user:
                 set_time_str(f"Kal-E  -  {num_to_month(today.month)} {today.day} {today.year} : {today.strftime('%I:%M:%S %p')}  -  Hello {profile.current_user.name}")
-            else: 
+            else:
                 set_time_str(f"Kal-E  -  {num_to_month(today.month)} {today.day} {today.year} : {today.strftime('%I:%M:%S %p')}")
 
     ft.use_effect(lambda: ft.context.page.run_task(tick), [])
@@ -50,7 +50,7 @@ def num_to_month(month_num: int) -> str:
 def AppLayout():
     outlet = ft.use_route_outlet()
     navigation_action_padding = ft.Padding.symmetric(vertical=0, horizontal=20)
-    today = dt.now()
+    # today = dt.now()
 
     page = ft.context.page
     page.theme = ft.Theme(color_scheme_seed=ft.Colors.GREEN)
@@ -98,11 +98,8 @@ def App():
                 ),
             ]
         )
-    )    
+    )
 
 
 if __name__ == "__main__":
     ft.run(lambda page: page.render(App))
-
-
-
