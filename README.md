@@ -1,69 +1,21 @@
-# KalE app
+# Kal-E app
 
-## Run the app
+Yet another program I will probably never finish
 
-### uv
+---
 
-Run as a desktop app:
+## What is it?
 
-```bash
-uv run flet run
-```
+Kal-E will be a calendar/task manager that you can put on the wall. It is essentially a recreation of a [skylight calendar](https://myskylight.com/calendar?srsltid=AfmBOoqb80UepQ2rWN5kPV0rCioRsYHJx-7JgO9B-nMOvoVd18LxDZdU).
 
-Run as a web app:
+---
 
-```bash
-uv run flet run --web
-```
+## Why the name?
 
-For more details on running the app, refer to the [Getting Started Guide](https://flet.dev/docs/).
+It's stupid, here's my thought process broken down into something non-understandable. 
 
-## Build the app
-
-### Android
-
-```bash
-flet build apk -v
-```
-
-For more details on building and signing `.apk` or `.aab`, refer to the [Android Packaging Guide](https://flet.dev/docs/publish/android/).
-
-### iOS
-
-```bash
-flet build ipa -v
-```
-
-For more details on building and signing `.ipa`, refer to the [iOS Packaging Guide](https://flet.dev/docs/publish/ios/).
-
-### macOS
-
-```bash
-flet build macos -v
-```
-
-For more details on building macOS package, refer to the [macOS Packaging Guide](https://flet.dev/docs/publish/macos/).
-
-### Linux
-
-```bash
-flet build linux -v
-```
-
-For more details on building Linux package, refer to the [Linux Packaging Guide](https://flet.dev/docs/publish/linux/).
-
-### Windows
-
-```bash
-flet build windows -v
-```
-
-For more details on building Windows package, refer to the [Windows Packaging Guide](https://flet.dev/docs/publish/windows/).
-
-### Web
-
-```bash
-flet build web -v
-```
-
-For more details on building Web app, refer to the [Web Packaging Guide](https://flet.dev/docs/publish/web/).
+Calendar's first syllable == cal -> 
+What if we keep the e, but change the pronunciation. (cal - e) cale -> 
+That looks like it's called kale (one syllable, like the plant) -> 
+What if I just add a dash to it? Now we have kal-e -> 
+It needs some capitalization: **Kal-E.**
