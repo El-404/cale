@@ -2,6 +2,7 @@ import flet as ft
 import os
 import json
 import uuid
+import profile
 
 class item_c:
     id: str
@@ -43,17 +44,19 @@ def items_to_json(items):
 
 
 def get_url():
-    cur_path = os.path.dirname(__file__)
-    return "groceries.json"
+    return profile.current_user.get_dir() + "groceries.json"
 
 def write(data):
     with open(get_url(), "w") as f:
         json.dump(data, f, indent=4)
 
 def load():
+    if not os.path.exists(profile.current_user.get_dir()):
+        os.makedirs(profile.current_user.get_dir())
     if not os.path.exists(get_url()):
         with open(get_url(), "w") as f:
             f.write('{"items": []}')
+
     with open(get_url(), "r") as f:
         return json.load(f)
 

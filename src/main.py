@@ -5,6 +5,7 @@ import tasks
 import groceries
 import kalendar
 import asyncio
+import profile
 
 # ft.IconButton(ft.Icons.ADD_COMMENT_SHARP),
 # ft.IconButton(ft.Icons.ADD_REACTION_SHARP),
