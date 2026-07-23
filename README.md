@@ -14,8 +14,8 @@ Kal-E will be a calendar/task manager that you can put on the wall. It is essent
 
 It's stupid, here's my thought process broken down into something non-understandable. 
 
-Calendar's first syllable == cal ->  
-What if we keep the e, but change the pronunciation. (cal - e) cale ->  
-That looks like it's called kale (one syllable, like the plant) ->  
-What if I add a dash to it? Now we have kal-e ->  
-It needs some capitalization: **Kal-E**.   
+-- Calendar's first syllable == cal  
+-- What if we keep the e, but change the pronunciation? (cal - e) cale  
+-- That looks like it's called kale (one syllable, like the plant)  
+-- What if I add a dash to it? Now we have kal-e  
+-- It needs some capitalization: **Kal-E**.   
