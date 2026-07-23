@@ -41,4 +41,6 @@ def load(id=None):
     return data
 
 global current_user
-current_user = user("Public")
+global public_user
+public_user = user("Public", id="1234567890qwerty")
+current_user = public_user

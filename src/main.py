@@ -20,7 +20,10 @@ def clock():
         while True:
             await asyncio.sleep(1)
             today = dt.now()
-            set_time_str(f"Kal-E  -  {num_to_month(today.month)} {today.day} {today.year} : {today.strftime('%I:%M:%S %p')}")
+            if profile.current_user != profile.public_user:
+                set_time_str(f"Kal-E  -  {num_to_month(today.month)} {today.day} {today.year} : {today.strftime('%I:%M:%S %p')}  -  Hello {profile.current_user.name}")
+            else: 
+                set_time_str(f"Kal-E  -  {num_to_month(today.month)} {today.day} {today.year} : {today.strftime('%I:%M:%S %p')}")
 
     ft.use_effect(lambda: ft.context.page.run_task(tick), [])
     return ft.Text(time_str, size=32, weight=ft.FontWeight.BOLD)
@@ -80,7 +83,6 @@ def AppLayout():
 
 @ft.component
 def App():
-    print("Running\n\n")
     return ft.SafeArea(
         content=ft.Router(
             [
