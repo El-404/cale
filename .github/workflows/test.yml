@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         run: |
-            echo: ${{ secrets.credentials_google_calendar }}
+            echo: "${{ secrets.credentials_google_calendar }}"
 
 
 
