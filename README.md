@@ -17,6 +17,6 @@ It's stupid, here's my thought process broken down into something non-understand
 - Calendar's first syllable == cal  
 - What if we keep the e, but change the pronunciation? (cal - e) cale  
 - That looks like it's called kale. (one syllable, like the plant)
-- I kinda like it with a k though.  
-- What if I add a dash to it? Now we have kal-e.  
+- I kinda like it with a k, though. kale  
+- We could add a dash to make it not look like the plant. kal-e  
 - It needs some capitalization: **Kal-E**.   
