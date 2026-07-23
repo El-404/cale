@@ -13,12 +13,11 @@ permissions:
   contents: read
 
 jobs:
-  build:
-
+  bash-example:
     runs-on: ubuntu-latest
-
     steps:
-    env:
-      credentials_google_calendar: ${{ secrets.credentials_google_calendar }}
-    run: 
-      echo ${{ secrets.credentials_google_calendar }}
+        run: |
+            echo: ${{ secrets.credentials_google_calendar }}
+
+
+
